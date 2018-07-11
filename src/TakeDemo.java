@@ -54,6 +54,9 @@ public class TakeDemo {
 				Sobj s = (Sobj) result;
 				System.out.println(s.contents);
 			}
+
+			// That's it, so close down
+            System.exit(0);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
